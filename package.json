@@ -4,6 +4,7 @@
   "description": "ES UNA APLICACIÓN WEB ORIENTADA A LOS VIDEOJUEGOS DE MEMORIA ÁGIL\r CON TEMAS DE MATEMÁTICAS, MEMORIZACIÓN, ENTRE OTROS",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "serve": "^14.1.2"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
   }
